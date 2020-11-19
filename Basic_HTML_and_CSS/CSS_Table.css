@@ -1,0 +1,23 @@
+		Table {
+	
+		border: 1px solid silver:
+
+		}
+		
+td:hover {
+		background-color: orange;
+		color: black;
+		}
+
+
+tr, th {
+	
+		background-color: blue;
+		color: cornsilk;
+		}
+
+tr, td {
+	
+		background-color: red;
+		color: white;
+		}
