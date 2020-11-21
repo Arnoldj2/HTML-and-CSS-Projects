@@ -25,12 +25,14 @@
 		<!--END HOME -->
 	
 		<!--NAV-->
-			<div class="pill-nav">
+			<div class="pill-nav">			
+				<div class="center">
 					<a class="active" href="#Home">Home</a>
 					<a href="#Enhancements">Enhancements</a>
 					<a href="#contact">Contact</a>
 					<a href="#video">Video</a>
 					<a href="#copyright">Copyright</a>
+				</div>
 			</div>
 		
 		<!--END NAV -->
@@ -38,7 +40,9 @@
 		<!--GALLERY START -->
 <div id="Enhancements">
 
-<h2 style="text-align:center">Cybernetic Enhancement Slideshow</h2>
+<div class="font_1">
+<h2 style="text-align:center;">Browse Our Upgrades</h2>
+</div>
 
 <div class="container">
   <div class="mySlides">
@@ -103,42 +107,50 @@
 
 <script src="Basic_JavaScript.js"></script>
 
-		<!--RSVP -->
-		<section>
-		<div id="contact">
+<!--RSVP -->
+
+<section>
+	<div id="contact">
 				<div style="color: teal; text-align:center; font-family:verdana">
 					<h1>Free Consultation</h1>
 					<div>
 					<h2> - Immortality Is Waiting - </h2>
 					<p style="color: silver">
-						Please provide us with your basic contact information
+						Please provide us with your basic contact information below
 					</p>
-					<div>
-						<form action="" method="post">
-							<input class="rsvp" type="text" value="First Name">
-							<input class="rsvp" type="text" value="Last Name">
-							<input class="rsvp" type="text" value="Email Address">
-							<input class="rsvp" type="text" value="Phone Number">
-							<div class="form-spacer">
-								<label class="terms">Terms and Conditions</label>
-							</div>
-							<div>
-							
-								<input type="submit" value="Submit">
-							</div>
-						</form>
 					</div>
 				</div>
-			</div>
-		</div>
-	</section>
+	</div>			
+<h3>Contact Form</h3>
+
+	<div class="container">
+		<form action="/action_page.php">
+		<label for="fname">First Name</label>
+		<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+		<label for="lname">Last Name</label>
+		<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+	
+		<label for="lname">Email</label>
+		<input type="text" id="email" name="Email" placeholder="Your Email..">
+	
+		<label for="lname">Phone Number</label>
+        <input type="text" id="phone" name="Phone" placeholder="Your Phone Number..">
+
+		<input type="submit" value="Submit">
+	
+		</form>
+	</div>
+	
+</section>
+
 	<!--END RSVP -->
 	
-	<!--VIDEO-->
+	<!--VIDEO - I dont really want to add this to my page -->
 		<div id="video" style="color: silver; text-align:center; font-family:verdana">
 		<a href=https://youtu.be/yhfMMP_jx-Q>Resistance Is Futile</a>
 		</div>
-	<!--END RSVP -->
+	<!--END VIDEO-->
 	
 	<!--FOOTER -->
 	<div id="copyright">
