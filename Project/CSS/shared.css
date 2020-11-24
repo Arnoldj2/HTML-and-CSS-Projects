@@ -95,6 +95,12 @@ p {
 
 }
 
+.rsvp-text {
+
+    text-align: center;
+}
+
+
 .heading-padding {
 
     padding-bottom: 40px;
@@ -192,12 +198,6 @@ text-align: center;
     padding-bottom: 500px;  /* this is spacer after the main title logo  */
     color: #fff;
 
-
-}
-
-.terms {
-
-    margin-top: 13%;
 
 }
 
@@ -356,7 +356,10 @@ box-shadow: 0 0 18px rgba(100,65,0,.8);
 
 .terms {
 
-    margin: 30px 1px 0 0;
+    margin-top: 55px;
+    margin-bottom: 1px;
+    margin-right: 0;
+    margin-left: 0;
     padding-left: 52px;
     font-size: 14px;
     line-height: 5px;
@@ -367,10 +370,12 @@ box-shadow: 0 0 18px rgba(100,65,0,.8);
     position: relative;
     display: inline;
     float: right;
-
+    
 }
 
+
 .terms:hover {
+
     color:orange;
     text-decoration: underline;
 
