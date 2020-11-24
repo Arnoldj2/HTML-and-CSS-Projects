@@ -82,6 +82,7 @@ h4 {
 }
 
 p {
+
     font-weight: 300;
     line-height: 30px;
     padding-bottom: 15px;
@@ -95,6 +96,7 @@ p {
 }
 
 .heading-padding {
+
     padding-bottom: 40px;
 
 }
@@ -137,7 +139,9 @@ section {
     margin-left: -15px;
 }
 
-.clearfix:after, .container:after, .navbar:after {
+.clearfix:after, 
+.container:after, 
+.navbar:after {
 
     clear: both;
     display: table;
@@ -262,7 +266,7 @@ Contact STYLES
     border-radius: 8px;
     margin: 0px auto;
     background-color: rgba(100,65,0,.3);
-    box-shadow: -1px -1px 1px 0 rgba(0,0,0,0.1), 1px 2px 10px 0 rgba(0,0,0,0.5)
+    box-shadow: -1px -1px 1px 0 rgba(0,0,0,0.1), 1px 2px 10px 0 rgba(0,0,0,0.5);
 }
 
 .reservation h2 {
@@ -316,7 +320,7 @@ font-family: 'Raleway', sans-serif;
 
 }
 
-.reservations input[type="text"] {
+.reservation input[type="text"] {
 
 font-size: 15px;
 outline: none;
@@ -327,7 +331,7 @@ width: 80%;
 border-top: 1px solid #090B0D;
 border-right: 2px solid #424549;
 border-bottom: 2px solid #424549;
-border-left: 1px solid #090B0D;;
+border-left: 1px solid #090B0D;
 margin: 10px 1em;
 border-radius: 7px;
 background: #13161B;
@@ -336,7 +340,7 @@ font-family: 'Raleway', sans-serif;
 
 }
 
-.reservations input[type="text"]:hover {
+.reservation input[type="text"]:hover {
 
 box-shadow: 0 0 18px rgba(100,65,0,.8);
 
