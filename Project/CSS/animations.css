@@ -70,7 +70,7 @@ GALLERY SECTION ANIMATION
 
 
 
-.photo-container img {
+.photo-container img{
 
     max-width: 100%;
     width: 300px;
@@ -78,7 +78,7 @@ GALLERY SECTION ANIMATION
 
 }
 
-.photo.overlay {
+.photo-overlay {
 
     color: #fff;
     position: absolute;

@@ -1,15 +1,42 @@
  
 body {
+
 	background-color:black;
-  font-family: Arial;
-  margin: 0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: 0;
+    
 }
 
 .font_1 {
-		Background-color: black;
-		color: silver;
-		font-size: large;
-	}
+
+    Font-family: didot;
+    color: teal;
+    font-size: 30px;
+    text-align: center;
+
+  
+}
+  
+.font_2 {
+
+    
+	color: silver;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.font_3 {
+
+  
+	color: silver;
+    font-size: 20px;
+    font-family: didot;
+
+
+}
+
+
 
 * {
   box-sizing: border-box;
