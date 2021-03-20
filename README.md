@@ -2,7 +2,9 @@
 
 This is a display of sample website that I made using HTML and CSS.
 
-Projects
+***
+
+## Projects
 
 - Space Station Site 
 - Movie Theater Site
