@@ -1,15 +1,15 @@
 # HTML-and-CSS-Projects
 
-This is a display of sample website that I made using HTML and CSS.
+This is a display of sample website that I made using HTML, CSS, and Bootstrap.
 
 ***
 
 ## Projects
 
-- Space Station Site 
 - Movie Theater Site
 - Portfolio
-
+- Space Station Site 
+- Slideshow Gallery
 
 ## Space Station Site
 
@@ -25,3 +25,6 @@ This page is an example home page for a movie theater this is styled using Boots
 
 This is a Professional Resume Site built using HTML/CSS
 
+## Slideshow Gallery
+
+This site shows a Slideshow Gallery using HTML, CSS, and Javascript
